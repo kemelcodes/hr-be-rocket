@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0050" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-07T03:08:57" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="file_system_write_basics" timestamp="2023-03-07T03:08:57" tests="6" file="/Users/appstack/code/rocket-resume/d4cbe3f0-edb7-4bd4-8a3a-dcb35829cd59/test/index.spec.js" time="0.0050" failures="0">
+    <testcase name="file_system_write_basics should create a new directory" time="0.0010" classname="should create a new directory">
+    </testcase>
+    <testcase name="file_system_write_basics should create a recursive directory" time="0.0000" classname="should create a recursive directory">
+    </testcase>
+    <testcase name="file_system_write_basics should create a dynamic directory" time="0.0010" classname="should create a dynamic directory">
+    </testcase>
+    <testcase name="file_system_write_basics should create a directory and write the file inside the directory" time="0.0020" classname="should create a directory and write the file inside the directory">
+    </testcase>
+    <testcase name="file_system_write_basics should write a file inside a recursive directory" time="0.0010" classname="should write a file inside a recursive directory">
+    </testcase>
+    <testcase name="file_system_write_basics should reject with an error if the passed data is invalid" time="0.0000" classname="should reject with an error if the passed data is invalid">
+    </testcase>
+  </testsuite>
+</testsuites>

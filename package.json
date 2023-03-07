@@ -8,6 +8,7 @@
     "start": "node index.js",
     "prestart": "npm install",
     "pretest": "npm install",
+    "setup": "npm i && npm run test",
     "test": "./node_modules/.bin/mocha test"
   },
   "author": "",

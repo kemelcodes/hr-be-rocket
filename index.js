@@ -6,19 +6,18 @@ const writeJSON = async (file_path, contents) => {
 
 		/* checks if path is valid */
     if (!file_path || typeof file_path !== 'string') {
-      throw new Error('Invalid file_path');
+      throw new Error('Invalid Path');
     }
 		
 		/* checks if file contents is valid */
     if (!contents || typeof contents !== 'object') {
       throw new Error('Invalid Data');
     }
-
     
     const dirname = path.dirname(file_path);
     await createDirectoryIfNotExists(dirname);
-
-		const json_string = JSON.stringify(contents, null, 2);
+		
+    const json_string = JSON.stringify(contents, null, 2);
     fs.writeFileSync(file_path, json_string);
   } catch (error) {
     throw new Error('Invalid Data');
